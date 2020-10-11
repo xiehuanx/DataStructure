@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a13bcb45-12e6-47f3-8161-dcccf424a26a" name="Default Changelist" comment="avl  tree" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Oz8g6eUiltH5JbtzLoTbjKBokN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553316628079" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="unionFind.UnionFind" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\CODE\xiehuan\xiehuan\src\avlTree" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Array" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avlTree.demo" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="avlTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.Array" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a13bcb45-12e6-47f3-8161-dcccf424a26a" name="Default Changelist" comment="" />
+      <created>1543905556891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543905556891</updated>
+      <workItem from="1543905558727" duration="2381000" />
+      <workItem from="1543909117323" duration="58000" />
+      <workItem from="1543928340756" duration="1955000" />
+      <workItem from="1543973518001" duration="591000" />
+      <workItem from="1544018652072" duration="2208000" />
+      <workItem from="1544058804996" duration="117000" />
+      <workItem from="1544062249800" duration="2325000" />
+      <workItem from="1544080166169" duration="8887000" />
+      <workItem from="1544096406755" duration="3294000" />
+      <workItem from="1544104502517" duration="599000" />
+      <workItem from="1544147593734" duration="2397000" />
+      <workItem from="1544263550205" duration="92000" />
+      <workItem from="1544263848550" duration="479000" />
+      <workItem from="1544599914262" duration="1243000" />
+      <workItem from="1544619118980" duration="1432000" />
+      <workItem from="1544624030619" duration="1745000" />
+      <workItem from="1544663641331" duration="2118000" />
+      <workItem from="1544673227311" duration="8415000" />
+      <workItem from="1544712702473" duration="1465000" />
+      <workItem from="1544750588324" duration="3567000" />
+      <workItem from="1544769730610" duration="599000" />
+      <workItem from="1544852510257" duration="3109000" />
+      <workItem from="1544858311773" duration="2686000" />
+      <workItem from="1544873569837" duration="1654000" />
+      <workItem from="1544933434085" duration="1892000" />
+      <workItem from="1544949416858" duration="1456000" />
+      <workItem from="1545010115506" duration="38000" />
+      <workItem from="1545011000335" duration="508000" />
+      <workItem from="1545036699520" duration="1014000" />
+      <workItem from="1545038587208" duration="10000" />
+      <workItem from="1545056000859" duration="3199000" />
+      <workItem from="1545096038321" duration="355000" />
+      <workItem from="1545101703232" duration="3562000" />
+      <workItem from="1545124209080" duration="593000" />
+      <workItem from="1545134717204" duration="3174000" />
+      <workItem from="1545183273450" duration="595000" />
+      <workItem from="1545212625220" duration="599000" />
+      <workItem from="1545222447969" duration="5106000" />
+      <workItem from="1545268429863" duration="601000" />
+      <workItem from="1545660535521" duration="4723000" />
+      <workItem from="1545701748840" duration="129000" />
+      <workItem from="1545741997314" duration="76000" />
+      <workItem from="1545789814537" duration="812000" />
+      <workItem from="1545888385493" duration="739000" />
+      <workItem from="1545898674673" duration="1578000" />
+      <workItem from="1545989599758" duration="1506000" />
+      <workItem from="1546068326650" duration="3597000" />
+      <workItem from="1546145604652" duration="1951000" />
+      <workItem from="1546161462170" duration="1123000" />
+      <workItem from="1546352203103" duration="622000" />
+      <workItem from="1546392288676" duration="20000" />
+      <workItem from="1546392322314" duration="45000" />
+      <workItem from="1546948883238" duration="3084000" />
+      <workItem from="1546957094364" duration="616000" />
+      <workItem from="1547032304702" duration="621000" />
+      <workItem from="1547273092265" duration="581000" />
+      <workItem from="1547273712952" duration="403000" />
+      <workItem from="1547274156731" duration="3056000" />
+      <workItem from="1547282595370" duration="819000" />
+      <workItem from="1547292226327" duration="640000" />
+      <workItem from="1547293062525" duration="6714000" />
+      <workItem from="1547302030317" duration="605000" />
+      <workItem from="1547467046188" duration="465000" />
+      <workItem from="1547467617150" duration="679000" />
+      <workItem from="1547727870361" duration="496000" />
+      <workItem from="1548251328474" duration="410000" />
+      <workItem from="1548293545139" duration="678000" />
+      <workItem from="1548674480718" duration="19000" />
+      <workItem from="1548752010496" duration="26000" />
+      <workItem from="1548752044440" duration="2000" />
+      <workItem from="1548987553294" duration="435000" />
+      <workItem from="1548988556363" duration="15000" />
+      <workItem from="1553316573534" duration="54000" />
+      <workItem from="1554029263990" duration="3917000" />
+      <workItem from="1554085318101" duration="35000" />
+      <workItem from="1554085392622" duration="86000" />
+      <workItem from="1554441270261" duration="997000" />
+      <workItem from="1554444059772" duration="2946000" />
+      <workItem from="1554517954943" duration="2470000" />
+      <workItem from="1554520470611" duration="1730000" />
+      <workItem from="1559456536837" duration="1385000" />
+      <workItem from="1559529396988" duration="80000" />
+      <workItem from="1559881316316" duration="9159000" />
+      <workItem from="1559892473333" duration="2659000" />
+      <workItem from="1560049082352" duration="39000" />
+      <workItem from="1560057959428" duration="3027000" />
+      <workItem from="1560079820687" duration="12000" />
+      <workItem from="1560669441049" duration="5256000" />
+      <workItem from="1560734914962" duration="11000" />
+      <workItem from="1563292716397" duration="1625000" />
+      <workItem from="1564969183485" duration="32000" />
+      <workItem from="1567152376765" duration="3225000" />
+      <workItem from="1567235468423" duration="1938000" />
+      <workItem from="1570953017589" duration="605000" />
+      <workItem from="1571067319139" duration="15000" />
+      <workItem from="1571068278579" duration="842000" />
+      <workItem from="1571149278375" duration="1620000" />
+      <workItem from="1571231136751" duration="321000" />
+      <workItem from="1571458668422" duration="5356000" />
+      <workItem from="1575374937468" duration="1509000" />
+      <workItem from="1577975468243" duration="1722000" />
+      <workItem from="1578363619931" duration="651000" />
+      <workItem from="1578405738558" duration="1284000" />
+      <workItem from="1578462538023" duration="219000" />
+      <workItem from="1579355682045" duration="112000" />
+      <workItem from="1580963516646" duration="2527000" />
+      <workItem from="1582606292529" duration="628000" />
+      <workItem from="1582606954526" duration="8999000" />
+      <workItem from="1583041813916" duration="8931000" />
+      <workItem from="1583153503406" duration="599000" />
+      <workItem from="1584687339589" duration="1384000" />
+      <workItem from="1585483156015" duration="988000" />
+      <workItem from="1585669039151" duration="1187000" />
+      <workItem from="1585710336294" duration="4896000" />
+      <workItem from="1585749584871" duration="5639000" />
+      <workItem from="1586070544336" duration="1799000" />
+      <workItem from="1586155949007" duration="2629000" />
+      <workItem from="1586169772738" duration="1214000" />
+      <workItem from="1589446197595" duration="541000" />
+      <workItem from="1589522212204" duration="404000" />
+      <workItem from="1589527546602" duration="545000" />
+      <workItem from="1589614666081" duration="620000" />
+      <workItem from="1589729638213" duration="1220000" />
+      <workItem from="1596265799143" duration="8000" />
+      <workItem from="1599653223983" duration="1623000" />
+      <workItem from="1599749247180" duration="600000" />
+      <workItem from="1599982234957" duration="1328000" />
+      <workItem from="1600066279518" duration="2785000" />
+      <workItem from="1600240136353" duration="1283000" />
+      <workItem from="1600260005433" duration="1393000" />
+      <workItem from="1600756468502" duration="875000" />
+      <workItem from="1600757411872" duration="16000" />
+      <workItem from="1601385362177" duration="736000" />
+      <workItem from="1601877551833" duration="1523000" />
+      <workItem from="1602142450785" duration="756000" />
+      <workItem from="1602143986789" duration="898000" />
+      <workItem from="1602251392533" duration="1321000" />
+      <workItem from="1602391462203" duration="848000" />
+    </task>
+    <task id="LOCAL-00001" summary="dynamic array">
+      <created>1543907559026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543907559026</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dynamic array">
+      <created>1543928481864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543928481864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dynamic array">
+      <created>1543929412137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543929412137</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Stack ：frist in ,last out">
+      <created>1544019567809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544019567810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add  方法  不需要size++，不需要判断 size，会自动扩充数组">
+      <created>1544019682597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544019682597</updated>
+    </task>
+    <task id="LOCAL-00006" summary="queue  first in ,first out">
+      <created>1544020771918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544020771918</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1544600345173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544600345173</updated>
+    </task>
+    <task id="LOCAL-00008" summary="递归">
+      <created>1544625133378</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544625133378</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add">
+      <created>1544685523851</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544685523851</updated>
+    </task>
+    <task id="LOCAL-00010" summary="contains">
+      <created>1544686647841</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544686647841</updated>
+    </task>
+    <task id="LOCAL-00011" summary="pre order">
+      <created>1544689226112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1544689226112</updated>
+    </task>
+    <task id="LOCAL-00012" summary="三种遍历方式">
+      <created>1544712965829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544712965829</updated>
+    </task>
+    <task id="LOCAL-00013" summary="remove">
+      <created>1544861024138</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544861024138</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1544934397979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1544934397979</updated>
+    </task>
+    <task id="LOCAL-00015" summary="使用二分搜索树完成的集合&#10;set">
+      <created>1545011043255</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545011043255</updated>
+    </task>
+    <task id="LOCAL-00016" summary="map interface">
+      <created>1545102040939</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545102040939</updated>
+    </task>
+    <task id="LOCAL-00017" summary="map implementation using LinkList">
+      <created>1545102107759</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1545102107759</updated>
+    </task>
+    <task id="LOCAL-00018" summary="using binary search tree implement map">
+      <created>1545102173532</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1545102173532</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add method:swap">
+      <created>1545230712478</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1545230712478</updated>
+    </task>
+    <task id="LOCAL-00020" summary="heap">
+      <created>1545230747750</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1545230747750</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add method :add">
+      <created>1545231072952</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1545231072952</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add interface">
+      <created>1545231101278</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1545231101278</updated>
+    </task>
+    <task id="LOCAL-00023" summary="loopqueue">
+      <created>1545231129547</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1545231129547</updated>
+    </task>
+    <task id="LOCAL-00024" summary="replaceMax ,MaxHeap(E[] es)">
+      <created>1545664339819</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545664339819</updated>
+    </task>
+    <task id="LOCAL-00025" summary="replaceMax ,MaxHeap(E[] es)">
+      <created>1545664364614</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545664364614</updated>
+    </task>
+    <task id="LOCAL-00026" summary="SegmentTree">
+      <created>1546168744357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1546168744357</updated>
+    </task>
+    <task id="LOCAL-00027" summary="heap   queue">
+      <created>1546168776346</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1546168776346</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tire add">
+      <created>1546953250102</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1546953250102</updated>
+    </task>
+    <task id="LOCAL-00029" summary="tire contain">
+      <created>1547299187417</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547299187417</updated>
+    </task>
+    <task id="LOCAL-00030" summary="111">
+      <created>1547299211786</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547299211786</updated>
+    </task>
+    <task id="LOCAL-00031" summary="union find">
+      <created>1554445285025</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1554445285025</updated>
+    </task>
+    <task id="LOCAL-00032" summary="avl  tree">
+      <created>1560673059479</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560673059479</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="queue  first in ,first out" />
+    <MESSAGE value="递归" />
+    <MESSAGE value="add" />
+    <MESSAGE value="contains" />
+    <MESSAGE value="pre order" />
+    <MESSAGE value="三种遍历方式" />
+    <MESSAGE value="remove" />
+    <MESSAGE value="1" />
+    <MESSAGE value="使用二分搜索树完成的集合&#10;set" />
+    <MESSAGE value="map interface" />
+    <MESSAGE value="map implementation using LinkList" />
+    <MESSAGE value="using binary search tree implement map" />
+    <MESSAGE value="add method:swap" />
+    <MESSAGE value="heap" />
+    <MESSAGE value="add method :add" />
+    <MESSAGE value="add interface" />
+    <MESSAGE value="loopqueue" />
+    <MESSAGE value="replaceMax ,MaxHeap(E[] es)" />
+    <MESSAGE value="SegmentTree" />
+    <MESSAGE value="heap   queue" />
+    <MESSAGE value="tire add" />
+    <MESSAGE value="tire contain" />
+    <MESSAGE value="111" />
+    <MESSAGE value="union find" />
+    <MESSAGE value="avl  tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="avl  tree" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602143717523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1602143717523" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1599654857037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599654857037" />
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1600083165029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600083165029" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1600083165029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600083165029" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1600083165028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600083165028" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1600083165029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600083165029" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1600260035801">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600260035801" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/avlTree/demo.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="xiehuan" type="b2602c69:ProjectViewProjectNode" />
+        <item name="xiehuan" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/xiehuan$Main.ic" NAME="Main Coverage Results" MODIFIED="1585753235073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
