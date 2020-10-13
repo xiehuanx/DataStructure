@@ -12,25 +12,26 @@ public class SegmentTree<E> {
     private E[] data;
     private Merger<E> merger;
 
-    public SegmentTree(E[] arr,Merger<E> merger){
+    public SegmentTree(E[] arr, Merger<E> merger) {
         this.merger = merger;
-        data = (E[])new Object[arr.length];
-        for(int i = 0 ; i < arr.length ; i ++){
+        data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
             data[i] = arr[i];
         }
-        tree = (E[])new Object[4 * arr.length];
+        tree = (E[]) new Object[4 * arr.length];
         buildSegmentTree(0, 0, arr.length - 1);
     }
 
     /**
      * 在treeIndex的位置创建表示区间[l...r]的线段树
+     *
      * @param treeIndex
      * @param l
      * @param r
      */
-    private void buildSegmentTree(int treeIndex, int l, int r){
+    private void buildSegmentTree(int treeIndex, int l, int r) {
 
-        if(l == r){
+        if (l == r) {
             tree[treeIndex] = data[l];
             return;
         }
@@ -46,12 +47,12 @@ public class SegmentTree<E> {
         tree[treeIndex] = merger.merge(tree[leftTreeIndex], tree[rightTreeIndex]);
     }
 
-    public int getSize(){
+    public int getSize() {
         return data.length;
     }
 
-    public E get(int index){
-        if(index < 0 || index >= data.length){
+    public E get(int index) {
+        if (index < 0 || index >= data.length) {
             throw new IllegalArgumentException("Index is illegal.");
         }
         return data[index];
@@ -59,40 +60,44 @@ public class SegmentTree<E> {
 
     /**
      * 返回完全二叉树的数组表示中，一个索引所表示的元素的左孩子节点的索引
+     *
      * @param index
      * @return
      */
-    private int leftChild(int index){
-        return 2*index + 1;
+    private int leftChild(int index) {
+        return 2 * index + 1;
     }
 
     /**
      * 返回完全二叉树的数组表示中，一个索引所表示的元素的右孩子节点的索引
+     *
      * @param index
      * @return
      */
-    private int rightChild(int index){
-        return 2*index + 2;
+    private int rightChild(int index) {
+        return 2 * index + 2;
     }
 
     /**
      * 返回区间[queryL, queryR]的值
+     *
      * @param queryL
      * @param queryR
      * @return
      */
-    public E query(int queryL, int queryR){
+    public E query(int queryL, int queryR) {
 
-        if(queryL < 0 || queryL >= data.length ||
-                queryR < 0 || queryR >= data.length || queryL > queryR){
+        if (queryL < 0 || queryL >= data.length ||
+                queryR < 0 || queryR >= data.length || queryL > queryR) {
             return query(0, 0, data.length - 1, queryL, queryR);
         }
-            throw new IllegalArgumentException("Index is illegal.");
+        throw new IllegalArgumentException("Index is illegal.");
 
     }
 
     /**
      * 在以treeIndex为根的线段树中[l...r]的范围里，搜索区间[queryL...queryR]的值
+     *
      * @param treeIndex
      * @param l
      * @param r
@@ -100,10 +105,9 @@ public class SegmentTree<E> {
      * @param queryR
      * @return
      */
-    private E query(int treeIndex, int l, int r, int queryL, int queryR){
+    private E query(int treeIndex, int l, int r, int queryL, int queryR) {
 
-        if(l == queryL && r == queryR)
-        {
+        if (l == queryL && r == queryR) {
             return tree[treeIndex];
         }
 
@@ -112,10 +116,10 @@ public class SegmentTree<E> {
 
         int leftTreeIndex = leftChild(treeIndex);
         int rightTreeIndex = rightChild(treeIndex);
-        if(queryL >= mid + 1) {
+        if (queryL >= mid + 1) {
             return query(rightTreeIndex, mid + 1, r, queryL, queryR);
 
-        }else if(queryR <= mid) {
+        } else if (queryR <= mid) {
             return query(leftTreeIndex, l, mid, queryL, queryR);
 
         }

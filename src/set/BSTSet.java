@@ -12,8 +12,9 @@ import BinarySearchTree.BST;
 public class BSTSet<E extends Comparable<E>> implements Set<E> {
 
     private BST<E> bst;
-    public BSTSet(){
-        bst=new BST<>();
+
+    public BSTSet() {
+        bst = new BST<>();
     }
 
     @Override
@@ -29,7 +30,7 @@ public class BSTSet<E extends Comparable<E>> implements Set<E> {
 
     @Override
     public void remove(E e) {
-            bst.remove(e);
+        bst.remove(e);
     }
 
     @Override

@@ -10,29 +10,35 @@ package queue;
 public interface Queue<E> {
     /**
      * 获取size
+     *
      * @return
      */
     int getSize();
+
     /**
-     *  是否为空
+     * 是否为空
+     *
      * @return
      */
     boolean isEmpty();
 
     /**
      * 压数据进行队列
+     *
      * @param e
      */
     void enqueue(E e);
 
     /**
-     *删除队列第一个元素
+     * 删除队列第一个元素
+     *
      * @return
      */
     E dequeue();
 
     /**
-     *返回队列第一个元素，不进行删除
+     * 返回队列第一个元素，不进行删除
+     *
      * @return
      */
     E getFront();

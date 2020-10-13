@@ -14,11 +14,12 @@ public class ArrayStack<E> implements Stack<E> {
     private Array<E> data;
 
 
-    public ArrayStack(int capacity){
-        data=new Array<>(capacity);
+    public ArrayStack(int capacity) {
+        data = new Array<>(capacity);
     }
-    public ArrayStack(){
-        data=new Array<>();
+
+    public ArrayStack() {
+        data = new Array<>();
     }
 
 
@@ -39,11 +40,11 @@ public class ArrayStack<E> implements Stack<E> {
 
     @Override
     public E pop() {
-        return data.remove(data.getSize()-1);
+        return data.remove(data.getSize() - 1);
     }
 
     @Override
     public E peek() {
-        return data.get(data.getSize()-1);
+        return data.get(data.getSize() - 1);
     }
 }

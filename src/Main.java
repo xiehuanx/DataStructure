@@ -11,25 +11,7 @@ public class Main {
     private static String rateReg = "/^\\d\\.([1-9]{1,2}|[0-9][1-9])$|^[1-9]\\d{0,1}(\\.\\d{1,2}){0,1}$|^100(\\.0{1,2}){0,1}$/";
 
     public static void main(String[] args) {
-/*        System.out.println(1 | 5);
-        System.out.println(isNumber("-1"));
-        System.out.println(isNumber("0.2222"));
-        System.out.println(isNumber("0.22"));
-        System.out.println(isNumber("1"));
-        System.out.println(isNumber("100"));
-        System.out.println("--------------------");
-        System.out.println(isNumber1("-1"));
-        System.out.println(isNumber1("0.2222"));
-        System.out.println(isNumber1("0.22"));
-        System.out.println(isNumber1("1"));
-        System.out.println(isNumber1("100"));*/
-
-        System.out.println("11111111111111".matches("^[a-z0-9A-Z]+$"));
-        System.out.println("1111111110000111".matches("^[a-z0-9A-Z]+$"));
-        System.out.println("9".matches("^[a-z0-9A-Z]+$"));
-        System.out.println("dsdsds4535431zasd1".matches("^[a-z0-9A-Z]+$"));
-        System.out.println("0".matches("^[a-z0-9A-Z]+$"));
-        System.out.println("dsadasda");
+        System.out.println(86 %7);
     }
 
     public static boolean isNumber(String str) {

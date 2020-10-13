@@ -13,11 +13,11 @@ public class ArrayQueue<E> implements Queue<E> {
 
     private Array<E> array;
 
-    public ArrayQueue(int capacity){
+    public ArrayQueue(int capacity) {
         array = new Array<>(capacity);
     }
 
-    public ArrayQueue(){
+    public ArrayQueue() {
         array = new Array<>();
     }
 
