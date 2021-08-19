@@ -52,8 +52,8 @@ public class LindedListD<E> {
     }
 
     private StringBuffer toString(Node node, StringBuffer stringBuffer){
-        if (node.next == null && node != null) {
-            return stringBuffer.append(node.data).append(",");
+        if (node != null) {
+            stringBuffer.append(node.data);
         }
         return toString(node.next, stringBuffer);
     }
