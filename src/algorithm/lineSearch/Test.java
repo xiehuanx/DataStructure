@@ -10,13 +10,15 @@ package algorithm.lineSearch;
  */
 public class Test {
 
+    private Test(){}
+
     public static void main(String[] args) {
-        int search = search(null, 2);
+        int search = Test.search(null, 12L);
         System.out.println(search);
     }
 
 
-    public static int search(int[] data, int target) {
+    public static <T> int search(T[] data, T target) {
         for (int i = 0; i < data.length; i++) {
             if (data[i] == target) {
                 return i;
