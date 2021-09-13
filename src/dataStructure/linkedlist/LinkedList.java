@@ -9,7 +9,7 @@ package dataStructure.linkedlist;
  */
 public class LinkedList<E> {
 
-    private class Node {
+    public class Node {
         E e;
         Node next;
 
@@ -32,7 +32,7 @@ public class LinkedList<E> {
         }
     }
 
-    private Node dummyhead;
+    public Node dummyhead;
 
     private Node prev;
 
@@ -170,6 +170,36 @@ public class LinkedList<E> {
 
     public E removeLast() {
         return remove(size - 1);
+    }
+
+    public String toString(){
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer = toString(dummyhead.next, stringBuffer);
+        return stringBuffer.toString();
+    }
+
+    private StringBuffer toString(Node node, StringBuffer stringBuffer){
+
+        if (node != null) {
+            stringBuffer.append(node.e).append(",");
+            toString(node.next, stringBuffer);
+        }
+        return stringBuffer;
+    }
+
+    public Node reversal() {
+        Node reversal = reversal(dummyhead);
+        return  reversal;
+    }
+
+    public Node reversal(Node head) {
+        if (head == null || head.next == null)
+            return head;
+        Node temp = head.next;
+        Node newHead = reversal(head.next);
+        head.next = null;
+        temp.next = head;
+        return newHead;
     }
 
 }
